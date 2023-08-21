@@ -1,0 +1,114 @@
+@media (max-width: 767px) {
+    body {
+        font-family: 'Montserrat';
+    }
+    .center 
+    {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .top {
+        padding-top: 239px;
+        padding-bottom: 239px;
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            margin-top: 32px;
+            .after {
+                display: none;
+            }
+        }
+        &__link {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: bold;
+        } 
+        &__box-button {
+            display: flex;
+            justify-content: space-around;
+            .button-top {
+                margin-top: 32px;
+            }
+        } 
+    }
+    .title {
+        display: block;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+    }
+    .top__content {
+        padding-top: 128px;
+        padding-bottom: 85px;
+    }
+    .top__content-box {
+        gap: 32px;
+        padding-bottom: 178px;
+        display: flex;
+        justify-content: space-around; 
+        .content {
+            display: flex;
+            justify-content: space-around;
+        }         
+        .content-text { 
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+        }
+        .content-link {
+            width: 343px;
+            height: 300px;           
+        }           
+    } 
+
+    .box-game {
+        gap: 64px;
+        justify-content: space-around;
+        padding-bottom: 136px;
+        
+    
+
+    }
+    
+    .game-name {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+         
+
+    } 
+    .top__text-game{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .game-img-box {
+        width: 344px;
+        height: 236px;
+        
+        
+
+    }
+    .game-2 {
+        padding-bottom: 64px;
+    }
+    .game-img {
+        width: 344px;
+        height: 236px;
+        
+
+    }
+    .game-2-img {
+        width: 344px;
+        height: 231px;
+    }
+    .box-game-2 {   
+        justify-content: space-around;
+    }
+          
+}

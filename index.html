@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top center">
+        <h1 class="title" >Добро пожаловать <br> на мой сайт !</h1>
+        <p class="top__text" >Вам предстоит пройти несколько увлекательных <br class="after"> игр. Если готов нажимай <span> <a class="top__link" href="#">поехали</a></span> и <span> <a class="top__link" href="#">приступай</a></span> 
+        <div class="top__box-button">
+            <button class="button-top" >Поехали!</button>
+        </div>
+    </div>
+    <div class="top__content center">
+        <div class="top__content-box">
+                <div class="content content-1">
+                    <a class="content-text" href="#">Игра 1</a>
+                    <a class="content-link" href="#"></a>
+                </div>    
+                <div class="content content-2">
+                    <a class="content-text" href="#">Игра 2</a>
+                    <a class="content-link" href="#">
+                        </a>
+                </div>  
+                <div class="content content-3">
+                    <a class="content-text" href="#">Игра 3</a>
+                    <a class="content-link" href="#"> 
+                        </a>
+                </div>  
+        </div>
+        <div class="box-game">
+            <div class="game">
+                <div class="game-info">
+                    <h1 class="game-name" >Времена года!</h1>
+                    <p class="top__text top__text-game" >Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p> 
+                    <div class="top__box-button">
+                        <button class="button-top button-top-game" onclick="mounth()"; >Играть!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="game-img-box">
+                <img class="game-img" src="img/game-img.png"alt="">
+            </div>
+        </div>
+        <div class="box-game-2">
+            <div class="game-2">
+                <div class="game-info">
+                    <h1 class="game-name" >Запомни слова </h1>
+                    <p class="top__text top__text-game" >При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p> 
+                    <div class="top__box-button">
+                        <button class="button-top button-top-game-2" onclick="memory()"; >Играть!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="game-img-box">
+                <img class="game-2-img" src="img/img-game2.png"alt="">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

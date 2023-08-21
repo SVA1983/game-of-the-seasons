@@ -1,0 +1,128 @@
+@media (min-width: 768px) and (max-width: 834px) {
+    body {
+        font-family: 'Montserrat';
+    } 
+    .center 
+    {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+    .top {
+        padding-top: 217px;
+        padding-bottom: 400px;
+        &__text {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            margin-top: 32px;
+        }
+        &__link {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: bold;
+        } 
+        .box-button {
+            .button-top {
+                margin-top: 44px;
+                    
+            }
+        } 
+    }
+    .title {
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 68px;
+    }
+    .top__content {
+        height: auto;
+        padding-top: 40px;
+    }
+    .top__content-box {
+        gap: 32px;
+        padding-bottom: 200px;
+    }
+    .content {
+        width: 343px;
+        height: 300px;
+    } 
+    .content-text { 
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+    }   
+            
+    .content-1 {
+        .content-link {
+            width: 343px;
+            height: 300px;
+        }                 
+    }
+    .content-2 {
+        .content-link {
+            width: 343px;
+            height: 300px;
+        }
+    }
+    .content-3 {
+        .content-link {
+            width: 343px;
+            height: 300px;
+        }
+    }
+
+    .box-game {
+        gap: 64px;
+        justify-content: space-around;
+        padding-bottom: 200px;
+        
+    
+
+    }
+    .game-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .game-name {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+         
+
+    } 
+    .top__text-game{
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .game-img-box {
+        width: 485px;
+        height: 333px;
+        
+        
+
+    }
+    .game-img {
+        width: 485px;
+        height: 333px;
+        
+
+    } 
+    .box-game-2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 64px;
+        
+    }
+             
+    
+}
+    
+      
+
